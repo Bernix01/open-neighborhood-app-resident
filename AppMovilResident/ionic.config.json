@@ -1,0 +1,7 @@
+{
+  "name": "AppMovilResident",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
