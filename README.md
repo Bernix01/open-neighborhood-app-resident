@@ -1,4 +1,4 @@
-# Open Neighborhood App Security
+# Open Neighborhood App Resident
 
 ## Setup
 
