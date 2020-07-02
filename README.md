@@ -1,5 +1,30 @@
-# GraphQL Hooks Example
+# Open Neighborhood App Resident
 
-[GraphQL Hooks](https://github.com/nearform/graphql-hooks) is a library from NearForm that intends to be a minimal hooks-first GraphQL client. Providing a similar API to Apollo.
+## Setup
 
-You'll see this shares the same [graph.cool](https://www.graph.cool) backend as the Apollo example, this is so you can compare the two side by side. The app itself should also look identical.
+### Install dependencies
+
+Run 
+
+```shell
+$ npm install typescript
+$ npm install --save core-js@^3
+$ npm install graphql-hooks
+$ npm install graphql-hooks-memcache
+$ npm install
+```
+
+## Testing
+
+TBD.
+
+## The stack
+
+This project is made with [ionic](https://ionicframework.com/) and based on the [With Graphql And React Hooks].
+As communnications are being done with [Graphql](https://graphql.org) this project uses [graphql-hooks](https://github.com/nearform/graphql-hooks) library to integrate graphql, react, react hooks with ease.
+
+Usefull links:
+
+* [Graphql](https://graphql.org)
+* [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+* [graphql-hooks](https://github.com/nearform/graphql-hooks)
