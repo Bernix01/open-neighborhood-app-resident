@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { GraphQLClient, ClientContext } from 'graphql-hooks'
 import memCache from 'graphql-hooks-memcache'
-import Posts from '../components/Posts'
+import PostsG from '../components/PostsG'
 
 const client = new GraphQLClient({
   cache: memCache(),
@@ -18,7 +18,7 @@ export default function App() {
       <h1>Postie</h1>
       <span>Verify caching by hiding/showing the posts: </span>
       <button onClick={togglePosts}>{showPosts ? 'hide' : 'show'}</button>
-      {showPosts && <Posts />}
+      {showPosts && <PostsG />}
     </ClientContext.Provider>
   )
 }

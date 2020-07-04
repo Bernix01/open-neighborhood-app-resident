@@ -13,7 +13,7 @@ export const allPostsQuery = `
   }
 `
 
-export default function Posts() {
+export default function PostsG() {
   const { loading, data, error, refetch } = useQuery(allPostsQuery)
 
   return (
