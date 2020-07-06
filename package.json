@@ -25,6 +25,7 @@
     "grommet": "^2.14.0",
     "grommet-icons": "^4.4.0",
     "ionicons": "^5.0.0",
+    "lint": "^0.7.0",
     "msw": "^0.19.5",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
