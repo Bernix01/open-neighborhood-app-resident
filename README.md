@@ -7,7 +7,6 @@
 Run 
 
 ```shell
-$ npm install typescript
 $ npm install --save core-js@^3
 $ npm install graphql-hooks
 $ npm install graphql-hooks-memcache
