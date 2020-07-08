@@ -1,0 +1,7 @@
+{
+  "name": "AppMovilSecurity",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
