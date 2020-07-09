@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "AppMovilSecurity",
+  "appName": "AppMovilResident",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "build",

@@ -1,7 +1,7 @@
 {
-  "name": "AppMovilSecurity",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react"
+    "name": "AppMovilResident",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "react"
 }
