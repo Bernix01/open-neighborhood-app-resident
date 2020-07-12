@@ -28,7 +28,6 @@ import './theme/variables.css';
 const App: React.FC = () => {
   return (
     <IonApp>
-      <h3> hugo</h3>
       <IonReactRouter>
         <IonRouterOutlet>
           <Route path="/login" exact component={Login} />
