@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import { useMutation, ClientContext } from 'graphql-hooks';
 import {
   IonList,
   IonLabel,
@@ -11,7 +12,15 @@ import {
   IonCard,
 } from '@ionic/react';
 
+const LOGIN_MUTATION = `mutation LoginUser (name: String!, password: String!) {
+    loginUser(name: $name, password: $password) {
+      token
+    }
+  }`;
+
 export default function LoginForm() {
+  const client = useContext(ClientContext);
+  const [loginUserMutation] = useMutation(LOGIN_MUTATION);
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -21,15 +30,25 @@ export default function LoginForm() {
   function login(e: React.FormEvent) {
     e.preventDefault();
     if (username && password) {
-      submit();
+      submit(e);
     } else {
       validar(e);
     }
   }
 
-  function submit() {
+  async function submit(e: React.FormEvent) {
     // eslint-disable-next-line no-console
-    console.log('funciona');
+    e.preventDefault();
+    const { data, error } = await loginUserMutation({
+      variables: { username, password },
+    });
+    if (error) {
+      // mensaje de error
+    } else {
+      const { token } = data.loginUser;
+      client.setHeader('Authorization', `Bearer ${token}`);
+      // your code to handle token in browser and login redirection
+    }
   }
 
   function validar(e: React.FormEvent) {
