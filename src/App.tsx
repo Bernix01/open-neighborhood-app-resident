@@ -3,6 +3,9 @@ import React from 'react';
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { Route } from 'react-router-dom';
+import { ClientContext } from 'graphql-hooks';
+import { client } from './GraphQLClient';
+
 import Login from './pages/Login';
 import Home from './pages/Home';
 
@@ -28,12 +31,14 @@ import './theme/variables.css';
 const App: React.FC = () => {
   return (
     <IonApp>
-      <IonReactRouter>
-        <IonRouterOutlet>
-          <Route path="/login" exact component={Login} />
-          <Route path="/home" exact component={Home} />
-        </IonRouterOutlet>
-      </IonReactRouter>
+      <ClientContext.Provider value={client}>
+        <IonReactRouter>
+          <IonRouterOutlet>
+            <Route path="/login" exact component={Login} />
+            <Route path="/home" exact component={Home} />
+          </IonRouterOutlet>
+        </IonReactRouter>
+      </ClientContext.Provider>
     </IonApp>
   );
 };
