@@ -12,9 +12,11 @@ import {
   IonCard,
 } from '@ionic/react';
 
-const LOGIN_MUTATION = `mutation LoginUser (name: String!, password: String!) {
-    loginUser(name: $name, password: $password) {
-      token
+const LOGIN_MUTATION = `mutation LoginUser ($name: String!, $password: String!) {
+    tokenAuth(username: $name, password: $password) {
+        token
+        payload
+        refreshExpiresIn
     }
   }`;
 
