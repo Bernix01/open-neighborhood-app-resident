@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config />
-    </shared>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15528440-2431-4405-b00e-c56e55890cc8" name="Default Changelist" comment="" />
+    <list default="true" id="74e122af-6483-4e12-8bed-bd9ab72f262f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/App/App.xcworkspace/xcuserdata/bernix01.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/App/App.xcworkspace/xcuserdata/bernix01.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1ekgDsOFRkb9a0IwcVIEjG22BoH" />
+  <component name="ProjectId" id="1ekj1jTF2z0tWcgXdIj5Jg2GZ3s" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,8 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1594871063490" />
-    <property name="settings.editor.selected.configurable" value="memory.settings" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -106,38 +107,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="15528440-2431-4405-b00e-c56e55890cc8" name="Default Changelist" comment="" />
-      <created>1594870888510</created>
+      <changelist id="74e122af-6483-4e12-8bed-bd9ab72f262f" name="Default Changelist" comment="" />
+      <created>1594872271847</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1594870888510</updated>
+      <updated>1594872271847</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="269" key="GridCell.Tab.0.bottom" timestamp="1594871871616">
+    <state width="1358" height="269" key="GridCell.Tab.0.bottom" timestamp="1594872417394">
       <screen x="0" y="0" width="3360" height="1890" />
     </state>
-    <state width="1358" height="269" key="GridCell.Tab.0.bottom/0.0.3360.1890/3360.0.1680.1050@0.0.3360.1890" timestamp="1594871871616" />
-    <state width="1358" height="269" key="GridCell.Tab.0.center" timestamp="1594871871615">
+    <state width="1358" height="269" key="GridCell.Tab.0.bottom/0.0.3360.1890/3360.0.1680.1050@0.0.3360.1890" timestamp="1594872417394" />
+    <state width="1358" height="269" key="GridCell.Tab.0.center" timestamp="1594872417393">
       <screen x="0" y="0" width="3360" height="1890" />
     </state>
-    <state width="1358" height="269" key="GridCell.Tab.0.center/0.0.3360.1890/3360.0.1680.1050@0.0.3360.1890" timestamp="1594871871615" />
-    <state width="1358" height="269" key="GridCell.Tab.0.left" timestamp="1594871871614">
+    <state width="1358" height="269" key="GridCell.Tab.0.center/0.0.3360.1890/3360.0.1680.1050@0.0.3360.1890" timestamp="1594872417393" />
+    <state width="1358" height="269" key="GridCell.Tab.0.left" timestamp="1594872417393">
       <screen x="0" y="0" width="3360" height="1890" />
     </state>
-    <state width="1358" height="269" key="GridCell.Tab.0.left/0.0.3360.1890/3360.0.1680.1050@0.0.3360.1890" timestamp="1594871871614" />
-    <state width="1358" height="269" key="GridCell.Tab.0.right" timestamp="1594871871616">
+    <state width="1358" height="269" key="GridCell.Tab.0.left/0.0.3360.1890/3360.0.1680.1050@0.0.3360.1890" timestamp="1594872417393" />
+    <state width="1358" height="269" key="GridCell.Tab.0.right" timestamp="1594872417394">
       <screen x="0" y="0" width="3360" height="1890" />
     </state>
-    <state width="1358" height="269" key="GridCell.Tab.0.right/0.0.3360.1890/3360.0.1680.1050@0.0.3360.1890" timestamp="1594871871616" />
-    <state x="974" y="923" key="SettingsEditor" timestamp="1594871287791">
-      <screen x="0" y="0" width="3360" height="1890" />
-    </state>
-    <state x="974" y="923" key="SettingsEditor/0.0.3360.1890/3360.0.1680.1050@0.0.3360.1890" timestamp="1594871287791" />
-    <state x="522" y="1169" key="com.intellij.ide.util.TipDialog" timestamp="1594871168213">
-      <screen x="0" y="0" width="3360" height="1890" />
-    </state>
-    <state x="522" y="1169" key="com.intellij.ide.util.TipDialog/0.0.3360.1890/3360.0.1680.1050@0.0.3360.1890" timestamp="1594871168213" />
+    <state width="1358" height="269" key="GridCell.Tab.0.right/0.0.3360.1890/3360.0.1680.1050@0.0.3360.1890" timestamp="1594872417394" />
   </component>
 </project>
